@@ -1,0 +1,22 @@
+<html>
+    <head>
+<div style="color:green;font: size 42px; ;">
+    <script language="JavaScript">
+   var D1_Lew=prompt("Dzień 1=","");
+      var G1_Lew=prompt("Godzina 1=","");
+   var D2_Lew=prompt("Dzień 2=","");
+       var G2_Lew=prompt("Godzina 2=","");
+       
+   var sek;
+    var D1_Lew=parseFloat(D1_Lew);
+    var D2_Lew=parseFloat(D2_Lew);
+    var G1_Lew=parseFloat(G1_Lew);
+    var G2_Lew=parseFloat(G2_Lew);
+    
+    
+    sek=(D2_Lew-D1_Lew)*86400+((G2_Lew-G1_Lew)*3600)
+    document.write("mineło"+sek+"sekund pomiędzy dniem "+D1_Lew+" a "+D2_Lew+"<br>");
+    </script>
+   </div>
+</head>
+<body>
